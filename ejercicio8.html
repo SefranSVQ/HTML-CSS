@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ejercicio de pseudo clases de enlaces</title>
+	<style type="text/css">
+
+		a {
+			margin: 1em 0;
+			float: left;
+			clear: left;
+			padding: 2px;
+		}
+
+		/* En su estado normal, los enlaces se muestran de color rojo #CC0000. */
+
+		a {
+			color:red;
+		}
+
+		/* Cuando el usuario pasa su ratón sobre el enlace, se muestra con un color de fondo 
+		rojo #CC0000 y la letra de color blanco #FFF.*/
+
+		a:hover {
+			background-color: red;
+			color: white;
+		}
+
+	 	/* Los enlaces visitados se muestran en color gris claro #CCC. */
+
+		 a:visited {
+			 color: silver;
+		 }
+    
+		
+		</style>
+	</head>
+	<body>
+		<a href="#">Enlace número 1</a>
+		<a href="#">Enlace número 2</a>
+		<a href="#">Enlace número 3</a>
+		<a href="#">Enlace número 4</a>
+		<a href="#">Enlace número 5</a>
+	</body>
+</html>
